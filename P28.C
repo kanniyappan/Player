@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+main()
 {
     int n,i,j,k,c=0,l1=0,l2=0,x=0;
     char a[30]="kabali",b[30],temp;
