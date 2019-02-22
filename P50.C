@@ -1,12 +1,17 @@
 #include<stdio.h>
-void main()
+main()
 {
-    int i,n,c=1;
-    scanf("%d",&n);
-    for(i=1;i<=n;i++)
-    {
-        if(i%2==0)
-        c++;
-    }
-    printf("%d",c);
+int k,i,c=0,j;
+scanf("%d",&k);
+for(i=0;i<=k;i++)
+{
+for(j=k;j>=0;j--)
+{
+if((i*1)+(j*2)==k)
+{
+c=c+1;
+}
+}
+}
+printf("%d",c);
 }
