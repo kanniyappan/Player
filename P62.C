@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-main()
+void main()
 {
 int i,c,j,n,a[10],max=0,k;
 clrscr();
@@ -25,5 +25,4 @@ c=i;
 a[c]=0;
 }
 printf("%d",max);
-getch();
 }
